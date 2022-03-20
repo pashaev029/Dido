@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @media (min-width: 769px) {
+        .desktopDiv {
+          background-color: lightgray;
+          height: 500px;
+        }
+      }
+
+      @media (max-width: 768px) and (min-width: 425px) {
+        .tabletDiv {
+          background: black;
+          height: 250px;
+        }
+      }
+
+      @media (max-width: 424px) {
+        .mobileDiv {
+          background-color: red;
+          height: 100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="desktopDiv"></div>
+    <div class="tabletDiv"></div>
+    <div class="mobileDiv"></div>
+  </body>
+</html>

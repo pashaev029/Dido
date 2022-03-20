@@ -1,0 +1,413 @@
+#header {
+    .contacts {
+        background-color: #26303a;
+        height: 100px;
+        color: white;
+
+        div {
+            height: 100%;
+        }
+
+        .phone-contact {
+            i {
+                font-size: 60px;
+                color: #1c85ee;
+                margin-top: 15px;
+            }
+
+            p {
+                display: inline-block;
+                margin-top: 35px;
+            }
+        }
+
+        .mail-contact {
+            i {
+                font-size: 50px;
+                color: #1c85ee;
+                margin-top: 15px;
+            }
+
+            p {
+                display: inline-block;
+                margin-top: 35px;
+            }
+        }
+
+        .social-contact {
+            display: flex;
+            justify-content: space-around;
+
+            .triangle-icons {
+                height: 50px;
+                width: 50px;
+                margin-top: 20px;
+                text-align: center;
+
+                i {
+                    height: 100%;
+                    text-align: center;
+                    width: 50px;
+                    height: 50px;
+                    font-size: 20px;
+                    border: 1px solid white;
+                    border-radius: 100%;
+                    text-align: center;
+                    padding-top: 15px;
+                    cursor: pointer;
+                }
+
+                i:hover {
+                    background-color: white;
+                    color: #1d86ec;
+                }
+            }
+        }
+    }
+
+    .menu {
+        img {
+            height: 50px;
+            width: 150px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .menu-bar {
+            ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
+
+                li {
+                    margin-top: 45px;
+
+                    a {
+                        color: #404a53;
+                        text-decoration: none;
+                    }
+
+                    a:hover {
+                        color: #1f86ed;
+                    }
+                }
+            }
+        }
+
+        .button {
+            button {
+                background-color: white;
+                border: 1px solid #1f86ed;
+                color: #1f86ed;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+#services {
+    .lorem-image {
+        background-image: url("../images/midnight.jpg");
+        height: 300px;
+        width: 100%;
+    }
+
+    .image-text {
+        color: white;
+        text-align: center;
+
+        h2 {
+            font-weight: 600;
+            margin-top: 60px;
+        }
+    }
+
+    .services-menu {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: #f8f8f8;
+        text-align: center;
+        color: #7f7f7f;
+
+        div {
+            margin-top: 30px;
+        }
+
+        h3 {
+            color: black;
+            font-weight: 600;
+        }
+
+        button {
+            width: 140px;
+            height: 35px;
+            border: 1px solid #1f86ed;
+            background-color: #1f86ed;
+            color: white;
+            margin-top: 30px;
+            font-weight: 600;
+        }
+    }
+}
+
+#skill {
+    position: relative;
+
+    .left-side {
+        height: 600px;
+    }
+
+    .right-side {
+        height: 600px;
+        background-image: url(../images/notebook.jpg);
+        background-size: cover;
+    }
+
+    .layer {
+        position: absolute;
+        height: auto;
+
+        .left-side-layer {
+            h3 {
+                font-weight: 600;
+                margin-top: 30px;
+            }
+
+            p {
+                text-align: left;
+                margin: 15px 60px 30px 0px;
+            }
+
+            .circle {
+                width: 80px;
+                height: 80px;
+                border-radius: 100%;
+                border: 1px solid #1f86ed;
+                background-color: #1f86ed;
+                text-align: center;
+                padding-top: 15px;
+                font-size: 30px;
+
+                i {
+                    color: white;
+                }
+            }
+
+            h5 {
+                font-weight: 600;
+                margin: 0px;
+            }
+        }
+
+        .right-side-layer {
+            h3 {
+                font-weight: 600;
+                margin-top: 30px;
+                margin-left: 30px;
+                color: white;
+            }
+
+            p {
+                margin-top: 15px;
+                margin-left: 30px;
+                color: white;
+            }
+
+            button {
+                width: 140px;
+                height: 35px;
+                border: 1px solid #1f86ed;
+                background-color: #1f86ed;
+                color: white;
+                margin-top: 30px;
+                margin-left: 30px;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .lorem-image-2 {
+        background-image: url("../images/midnight.jpg");
+        height: 300px;
+        width: 100%;
+    }
+
+    .bottom-image-text {
+        color: white;
+        text-align: center;
+
+        p {
+            margin-top: 90px;
+            font-size: 25px;
+        }
+    }
+
+    .happy-clients {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: #f8f8f8;
+
+        .client-header {
+            text-align: center;
+
+            p:first-child {
+                font-size: 25px;
+                font-weight: 600;
+            }
+        }
+
+        .comments {
+            height: 300px;
+            margin-top: 90px;
+            margin-bottom: 90px;
+            position: relative;
+
+            div {
+                height: 300px;
+                text-align: center;
+                font-size: 16px;
+                background-color: white;
+            }
+
+            p:first-child {
+                padding-top: 30px;
+            }
+
+            p:last-child {
+                font-size: 14px;
+                color: #939ea2;
+            }
+
+            i {
+                color: #f8931f;
+                padding-bottom: 15px;
+            }
+
+            .quote {
+                position: absolute;
+                font-size: 50px;
+                top: -25px;
+                left: -10px;
+
+                i {
+                    color: black;
+                }
+            }
+        }
+
+        .page {
+            .circle {
+                height: 20px;
+                border-radius: 100%;
+                background-color: #e3e1e2;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #1f86ed;
+                    border-radius: 35%;
+                }
+            }
+        }
+    }
+}
+
+#bottom {
+    height: 380px;
+    background-image: url(../images/note.jpg);
+    background-size: cover;
+
+    .footer {
+        height: 380px;
+        background-color: rgba(69, 90, 100, 0.6);
+        color: white;
+
+        .container {
+            padding-top: 90px;
+
+            h3 {
+                margin-top: 0px;
+                padding-left: 30px;
+                margin-bottom: 15px;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+
+                &:hover {
+                    color: #2080df;
+                }
+            }
+        }
+
+        img {
+            margin-bottom: 30px;
+        }
+
+        i {
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            margin-top: 15px;
+            border-radius: 100%;
+            border: 1px solid white;
+            text-align: center;
+            padding-top: 15px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: white;
+                color: #2080df;
+            }
+        }
+
+        ul {
+            list-style-type: none;
+            margin-bottom: 0px;
+            padding-left: 30px;
+
+            li {
+                margin-top: 15px;
+            }
+        }
+
+        .commentary {
+            margin-bottom: 15px;
+
+            h4 {
+                margin-top: 0px;
+                padding-left: 15px;
+                color: #2080df;
+            }
+
+            p {
+                font-size: 12px;
+                padding-left: 15px;
+                margin-bottom: 0px;
+            }
+
+            span {
+                padding-left: 15px;
+                font-size: 10px;
+                color: #828d92;
+            }
+        }
+    }
+
+    .footer-menu {
+        height: 100px;
+        background-color: #1f86ed;
+        color: white;
+
+        p {
+            margin-top: 45px;
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                color: white;
+                padding-right: 30px;
+            }
+        }
+    }
+}

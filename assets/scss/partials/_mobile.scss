@@ -1,0 +1,205 @@
+@media (max-width: $mobileMaxWidth) {
+    .social-contact {
+        display: flex;
+        justify-content: space-around;
+
+        .triangle-icons {
+            height: 50px;
+            width: 50px;
+            margin-top: 20px;
+            text-align: center;
+
+            i {
+                height: 100%;
+                text-align: center;
+                width: 50px;
+                height: 50px;
+                font-size: 20px;
+                border: 1px solid white;
+                border-radius: 100%;
+                text-align: center;
+                padding-top: 15px;
+                cursor: pointer;
+            }
+
+            i:hover {
+                background-color: white;
+                color: #1d86ec;
+            }
+        }
+    }
+
+    .menu-bar {
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            margin: 0px;
+
+            li {
+                margin-bottom: 45px;
+
+                a {
+                    color: #404a53;
+                    text-decoration: none;
+                    font-weight: 600;
+                }
+
+                a:hover {
+                    color: #1f86ed;
+                }
+            }
+        }
+    }
+
+    .image-text {
+        color: white;
+        text-align: center;
+
+        h2 {
+            font-weight: 600;
+            margin-top: 60px;
+        }
+
+        p {
+            margin-top: 30px;
+        }
+    }
+
+    .mobile-logo {
+        background-image: url(../images/mobile-logo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-left: -15px;
+    }
+
+    #skill {
+        .left-side {
+            height: 725px;
+        }
+
+        .layer {
+            position: absolute;
+            height: auto;
+
+            .left-side-layer {
+                h3 {
+                    font-weight: 600;
+                    margin-top: 30px;
+                }
+
+                p {
+                    text-align: start;
+                    margin: 15px 0px 30px 0px;
+                }
+
+                .circle {
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 100%;
+                    border: 1px solid #1f86ed;
+                    background-color: #1f86ed;
+                    text-align: center;
+                    padding-top: 15px;
+                    font-size: 30px;
+
+                    i {
+                        color: white;
+                    }
+                }
+
+                h5 {
+                    font-weight: 600;
+                    margin: 0px;
+                }
+
+                .skills-section {
+                    height: 150px;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .right-side-layer {
+                h3 {
+                    font-weight: 600;
+                    margin-top: 30px;
+                    margin-left: 30px;
+                    color: white;
+                }
+
+                p {
+                    margin-top: 15px;
+                    margin-left: 30px;
+                    color: white;
+                }
+
+                button {
+                    width: 140px;
+                    height: 35px;
+                    border: 1px solid #1f86ed;
+                    background-color: #1f86ed;
+                    color: white;
+                    margin-top: 30px;
+                    margin-left: 30px;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .lorem-image-2 {
+            background-image: url("../images/midnight.jpg");
+            height: 300px;
+            width: 100%;
+
+            .bottom-image-text {
+                p {
+                    margin-top: 30px;
+                }
+            }
+        }
+
+        .page {
+            .circle {
+                height: 15px;
+                width: 15px;
+                border-radius: 100%;
+                background-color: #e3e1e2;
+                cursor: pointer;
+                margin: 0px 30px 0px 30px;
+
+                &:hover {
+                    background-color: #1f86ed;
+                    border-radius: 35%;
+                }
+            }
+        }
+    }
+
+    #bottom {
+        .footer {
+            text-align: center;
+            height: 750px;
+            background-image: url(../images/note.jpg);
+            background-size: cover;
+        }
+
+        .footer-menu {
+            height: 150px;
+            text-align: center;
+
+            p {
+                margin-top: 30px;
+
+                a {
+                    padding: 15px;
+                }
+            }
+        }
+
+        .tweet {
+            text-align: start;
+            padding-top: 60px;
+        }
+    }
+}

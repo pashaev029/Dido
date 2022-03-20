@@ -1,0 +1,8 @@
+$mobileMaxWidth: 750px;
+$tabletMaxWidth: 1024px;
+$desktopMinWidth: 1024px;
+
+@import "bootstrap";
+@import "partials/desktop";
+@import "partials/tablet";
+@import "partials/mobile";
